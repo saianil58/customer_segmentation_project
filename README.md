@@ -1,3 +1,24 @@
+- [Customer Segmentation: ELT Pipeline & API](#customer-segmentation--elt-pipeline---api)
+  * [Problem Statement](#problem-statement)
+  * [Requirements](#requirements)
+    + [General Requirements](#general-requirements)
+    + [Technical Requirements](#technical-requirements)
+  * [Segments to be used](#segments-to-be-used)
+  * [Solution Details](#solution-details)
+    + [Data Cleaning](#data-cleaning)
+    + [Project Requirements (tools & related)](#project-requirements--tools---related-)
+    + [Project Composition](#project-composition)
+    + [Creation of docker image](#creation-of-docker-image)
+    + [ELT Steps](#elt-steps)
+    + [API Endpoint Details](#api-endpoint-details)
+    + [Sending a Request to the API](#sending-a-request-to-the-api)
+      - [runPipeline Example](#runpipeline-example)
+      - [getVoucher Example](#getvoucher-example)
+    + [Checking in Database](#checking-in-database)
+  * [Tests: Simple ones developed](#tests--simple-ones-developed)
+  * [Remarks & Scaling Thoughts](#remarks---scaling-thoughts)
+  * [Conclusion](#conclusion)
+  
 # Customer Segmentation: ELT Pipeline & API
 
 ## Problem Statement
