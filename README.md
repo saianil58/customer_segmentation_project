@@ -102,6 +102,7 @@ In order to populate the database with the output, run the `runPipeline` API bef
 ### Sending a Request to the API
 
 As we used FastAPI, there is additional interactive documentation provided. 
+![Like this](https://github.com/saianil58/customer_segmentation_project/blob/main/image.png?raw=true)
 You can go to http://192.168.99.100/docs or http://127.0.0.1/docs (or equivalent, using your Docker host).
 
 #### runPipeline Example
