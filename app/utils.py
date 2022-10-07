@@ -13,7 +13,7 @@ def get_snowflake_conn_cursor():
     logging.info("making connection")
     conn = snowflake.connector.connect(
         user="saianil58",
-        password="P@$$w0rd",
+        password="<please use the shared password>",
         account="du59886.ap-south-1.aws",
         warehouse="SAI_WH",
         database="DH_DATABASE",
